@@ -13,7 +13,6 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <h1>Luxury Hotel</h1>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home}/>
