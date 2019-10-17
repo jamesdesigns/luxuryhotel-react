@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import 
 
 export default function Loading() {
     return (
-        <div>
-            
+        <div className="loading">
+            <h4>rooms data loading...</h4>
         </div>
     )
 }
