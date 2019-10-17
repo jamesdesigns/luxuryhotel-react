@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
+import items from './data';
 
 const RoomContext = React.createContext();
 // <RoomContext.Provider value={'hello'}
 class RoomProvider extends Component {
     state={
-        greeting: 'hello',
-        name: 'James'
-    }
+        rooms: [],
+        sortedRooms: [],
+        featuredRooms: [],
+        
+    };
     render() {
-        return <RoomContext.Provider value={{...this.state}}>
+        return (
+        <RoomContext.Provider value={{...this.state}}>
             {this.props.children}
-        </RoomContext.Provider>;
+        </RoomContext.Provider>
+        );
     }
 }
 
