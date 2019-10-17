@@ -8,8 +8,18 @@ class RoomProvider extends Component {
         rooms: [],
         sortedRooms: [],
         featuredRooms: [],
-        
+        loading: true
     };
+    // getData {}
+
+    componentDidMount() {
+        let rooms = this.formatData(items)
+    }
+
+    formatData(items){
+        
+    }
+
     render() {
         return (
         <RoomContext.Provider value={{...this.state}}>
