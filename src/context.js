@@ -13,7 +13,8 @@ class RoomProvider extends Component {
     // getData {}
 
     componentDidMount() {
-        let rooms = this.formatData(items)
+        let rooms = this.formatData(items);
+        console.log(rooms);
     }
 
     formatData(items){
@@ -24,6 +25,7 @@ class RoomProvider extends Component {
             let room = {...item.fields,images,id};
             return room;
         });
+        return tempItems
     }
 
     render() {
