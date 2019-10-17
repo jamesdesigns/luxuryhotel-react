@@ -21,7 +21,7 @@ class RoomProvider extends Component {
             let id = item.sys.id
             let images = item.fields.images.map(image => image.fields.file.url);
         
-            ket room = {}
+            let room = {...item.fields,images,id}
         });
     }
 
