@@ -32,4 +32,5 @@ Room.propTypes = {
         images:PropTypes.arrayOf(PropTypes.string).isRequired,
         price:PropTypes.number.isRequired,
     })
-}
+};
+
