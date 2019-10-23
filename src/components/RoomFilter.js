@@ -14,6 +14,11 @@ export default function RoomFilter() {
             <Title title="search rooms" />
             <form className="filter-form">
                 {/* select type */}
+                <div className="form-group">
+                    <lable htmlFor="type">
+                        room type
+                    </lable>
+                </div>
                 {/* end select  */}
             </form>
             
