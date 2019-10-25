@@ -60,9 +60,9 @@ class RoomProvider extends Component {
         const name = event.target.name
         const value = event.target.value
         console.log(`this is type: ${type}, this is name: ${name}, this is the value: ${value}`);
-    }
+    };
     filterRooms = () => {
-
+        console.log("hello");
     }
 
     render() {
