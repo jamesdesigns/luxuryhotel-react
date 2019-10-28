@@ -64,7 +64,9 @@ class RoomProvider extends Component {
         },this.filterRooms)
     };
     filterRooms = () => {
-        console.log("hello");
+        let{
+            rooms,type,capacity,price,minSize,maxSize,breakfast,pets
+        } = this.state
     }
 
     render() {
