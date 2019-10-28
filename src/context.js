@@ -60,8 +60,8 @@ class RoomProvider extends Component {
         const value = event.type === 'checkbox' ? target.checked:target.value
         const name = event.target.name
         this.setState({
-            [name]:
-        })
+            [name]:value
+        },this.filterRooms)
     };
     filterRooms = () => {
         console.log("hello");

@@ -36,7 +36,7 @@ export default function RoomFilter({rooms}) {
                     >
                         {types}
                     </select> 
-                    <option>option</option>
+                    <option></option>
                 </div>
                 {/* end select  */}
             </form>
