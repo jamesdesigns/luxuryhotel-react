@@ -18,7 +18,7 @@ export default class Services extends Component {
             {
                 icon:<FaShuttleVan/>,
                 title:"Free Shuttle",
-                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis!'
+                info: 'Take the Free shuttle all around town any time of day. This is always included!'
             },
             {
                 icon:<FaBeer/>,
