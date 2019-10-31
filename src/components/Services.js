@@ -23,7 +23,7 @@ export default class Services extends Component {
             {
                 icon:<FaBeer/>,
                 title:"Strongest Beer",
-                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis!'
+                info: 'Enjoy some of the worlds tastiest and strongest beers on the resort!'
             }
         ]
     }
